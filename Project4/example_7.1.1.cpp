@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string.h>
+#define STRMAX 599
 
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    char str[600];
+    char str[STRMAX+1];
     char name[100];
     char addr[200];
     char work[200];
@@ -17,13 +18,13 @@ int main(int argc, char const *argv[])
     cout << "Enter workplace and press ENTER: ";
     cin.getline(work, 199);
 
-    strncpy(str, "\nMy name is ", 599);
-    strncat(str, name, 599 - strlen(str));
-    strncat(str, ", I live at ", 599 - strlen(str));
-    strncat(str, addr, 599 - strlen(str));
-    strncat(str, ",and I work at ", 599 - strlen(str));
-    strncat(str, work, 599 - strlen(str));
-    strncat(str, ".", 599 - strlen(str));
+    strncpy(str, "\nMy name is ", STRMAX);
+    strncat(str, name, STRMAX - strlen(str));
+    strncat(str, ", I live at ", STRMAX - strlen(str));
+    strncat(str, addr, STRMAX - strlen(str));
+    strncat(str, ",and I work at ", STRMAX - strlen(str));
+    strncat(str, work, STRMAX - strlen(str));
+    strncat(str, ".", STRMAX - strlen(str));
 
     cout << str << endl;
 
