@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/DATA/Projects_c++/Project3/build",
+  "command": "/usr/bin/c++    -O3 -DNDEBUG   -o CMakeFiles/project3.dir/main.cpp.o -c /DATA/Projects_c++/Project3/main.cpp",
+  "file": "/DATA/Projects_c++/Project3/main.cpp"
+}
+]
