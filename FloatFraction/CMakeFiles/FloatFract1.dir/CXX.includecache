@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/DATA/Projects_c++/FloatFraction/FloatFract1.cpp
+iostream
+-
+Fract.h
+/DATA/Projects_c++/FloatFraction/Fract.h
+
+/DATA/Projects_c++/FloatFraction/Fract.h
+iostream
+-
+

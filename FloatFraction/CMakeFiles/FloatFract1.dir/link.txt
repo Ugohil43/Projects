@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/FloatFract1.dir/FloatFract1.o  -o FloatFract1 libFraction.a 
