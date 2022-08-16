@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /DATA/Projects_c++/FloatFraction
 CMakeFiles/Fraction.dir/all:
 	$(MAKE) -f CMakeFiles/Fraction.dir/build.make CMakeFiles/Fraction.dir/depend
 	$(MAKE) -f CMakeFiles/Fraction.dir/build.make CMakeFiles/Fraction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/Projects_c++/FloatFraction/CMakeFiles --progress-num=1,2 "Built target Fraction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/Projects_c++/FloatFraction/CMakeFiles --progress-num=3,4 "Built target Fraction"
 .PHONY : CMakeFiles/Fraction.dir/all
 
 # Include target in all.
@@ -97,39 +97,39 @@ clean: CMakeFiles/Fraction.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/FractionUnits1.dir
+# Target rules for target CMakeFiles/FloatFract1.dir
 
 # All Build rule for target.
-CMakeFiles/FractionUnits1.dir/all: CMakeFiles/Fraction.dir/all
-	$(MAKE) -f CMakeFiles/FractionUnits1.dir/build.make CMakeFiles/FractionUnits1.dir/depend
-	$(MAKE) -f CMakeFiles/FractionUnits1.dir/build.make CMakeFiles/FractionUnits1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/Projects_c++/FloatFraction/CMakeFiles --progress-num=3,4 "Built target FractionUnits1"
-.PHONY : CMakeFiles/FractionUnits1.dir/all
+CMakeFiles/FloatFract1.dir/all: CMakeFiles/Fraction.dir/all
+	$(MAKE) -f CMakeFiles/FloatFract1.dir/build.make CMakeFiles/FloatFract1.dir/depend
+	$(MAKE) -f CMakeFiles/FloatFract1.dir/build.make CMakeFiles/FloatFract1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/Projects_c++/FloatFraction/CMakeFiles --progress-num=1,2 "Built target FloatFract1"
+.PHONY : CMakeFiles/FloatFract1.dir/all
 
 # Include target in all.
-all: CMakeFiles/FractionUnits1.dir/all
+all: CMakeFiles/FloatFract1.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/FractionUnits1.dir/rule: cmake_check_build_system
+CMakeFiles/FloatFract1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /DATA/Projects_c++/FloatFraction/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FractionUnits1.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FloatFract1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /DATA/Projects_c++/FloatFraction/CMakeFiles 0
-.PHONY : CMakeFiles/FractionUnits1.dir/rule
+.PHONY : CMakeFiles/FloatFract1.dir/rule
 
 # Convenience name for target.
-FractionUnits1: CMakeFiles/FractionUnits1.dir/rule
+FloatFract1: CMakeFiles/FloatFract1.dir/rule
 
-.PHONY : FractionUnits1
-
-# clean rule for target.
-CMakeFiles/FractionUnits1.dir/clean:
-	$(MAKE) -f CMakeFiles/FractionUnits1.dir/build.make CMakeFiles/FractionUnits1.dir/clean
-.PHONY : CMakeFiles/FractionUnits1.dir/clean
+.PHONY : FloatFract1
 
 # clean rule for target.
-clean: CMakeFiles/FractionUnits1.dir/clean
+CMakeFiles/FloatFract1.dir/clean:
+	$(MAKE) -f CMakeFiles/FloatFract1.dir/build.make CMakeFiles/FloatFract1.dir/clean
+.PHONY : CMakeFiles/FloatFract1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/FloatFract1.dir/clean
 
 .PHONY : clean
 

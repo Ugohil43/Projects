@@ -124,17 +124,44 @@ Fraction/fast:
 .PHONY : Fraction/fast
 
 #=============================================================================
-# Target rules for targets named FractionUnits1
+# Target rules for targets named FloatFract1
 
 # Build rule for target.
-FractionUnits1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FractionUnits1
-.PHONY : FractionUnits1
+FloatFract1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FloatFract1
+.PHONY : FloatFract1
 
 # fast build rule for target.
-FractionUnits1/fast:
-	$(MAKE) -f CMakeFiles/FractionUnits1.dir/build.make CMakeFiles/FractionUnits1.dir/build
-.PHONY : FractionUnits1/fast
+FloatFract1/fast:
+	$(MAKE) -f CMakeFiles/FloatFract1.dir/build.make CMakeFiles/FloatFract1.dir/build
+.PHONY : FloatFract1/fast
+
+FloatFract1.o: FloatFract1.cpp.o
+
+.PHONY : FloatFract1.o
+
+# target to build an object file
+FloatFract1.cpp.o:
+	$(MAKE) -f CMakeFiles/FloatFract1.dir/build.make CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o
+.PHONY : FloatFract1.cpp.o
+
+FloatFract1.i: FloatFract1.cpp.i
+
+.PHONY : FloatFract1.i
+
+# target to preprocess a source file
+FloatFract1.cpp.i:
+	$(MAKE) -f CMakeFiles/FloatFract1.dir/build.make CMakeFiles/FloatFract1.dir/FloatFract1.cpp.i
+.PHONY : FloatFract1.cpp.i
+
+FloatFract1.s: FloatFract1.cpp.s
+
+.PHONY : FloatFract1.s
+
+# target to generate assembly for a file
+FloatFract1.cpp.s:
+	$(MAKE) -f CMakeFiles/FloatFract1.dir/build.make CMakeFiles/FloatFract1.dir/FloatFract1.cpp.s
+.PHONY : FloatFract1.cpp.s
 
 Fraction.o: Fraction.cpp.o
 
@@ -163,33 +190,6 @@ Fraction.cpp.s:
 	$(MAKE) -f CMakeFiles/Fraction.dir/build.make CMakeFiles/Fraction.dir/Fraction.cpp.s
 .PHONY : Fraction.cpp.s
 
-FractionUnits1.o: FractionUnits1.cpp.o
-
-.PHONY : FractionUnits1.o
-
-# target to build an object file
-FractionUnits1.cpp.o:
-	$(MAKE) -f CMakeFiles/FractionUnits1.dir/build.make CMakeFiles/FractionUnits1.dir/FractionUnits1.cpp.o
-.PHONY : FractionUnits1.cpp.o
-
-FractionUnits1.i: FractionUnits1.cpp.i
-
-.PHONY : FractionUnits1.i
-
-# target to preprocess a source file
-FractionUnits1.cpp.i:
-	$(MAKE) -f CMakeFiles/FractionUnits1.dir/build.make CMakeFiles/FractionUnits1.dir/FractionUnits1.cpp.i
-.PHONY : FractionUnits1.cpp.i
-
-FractionUnits1.s: FractionUnits1.cpp.s
-
-.PHONY : FractionUnits1.s
-
-# target to generate assembly for a file
-FractionUnits1.cpp.s:
-	$(MAKE) -f CMakeFiles/FractionUnits1.dir/build.make CMakeFiles/FractionUnits1.dir/FractionUnits1.cpp.s
-.PHONY : FractionUnits1.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -199,13 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Fraction"
-	@echo "... FractionUnits1"
+	@echo "... FloatFract1"
+	@echo "... FloatFract1.o"
+	@echo "... FloatFract1.i"
+	@echo "... FloatFract1.s"
 	@echo "... Fraction.o"
 	@echo "... Fraction.i"
 	@echo "... Fraction.s"
-	@echo "... FractionUnits1.o"
-	@echo "... FractionUnits1.i"
-	@echo "... FractionUnits1.s"
 .PHONY : help
 
 

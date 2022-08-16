@@ -6,7 +6,7 @@
 },
 {
   "directory": "/DATA/Projects_c++/FloatFraction/build",
-  "command": "/usr/bin/g++    -g   -o CMakeFiles/FractionUnits1.dir/FractionUnits1.cpp.o -c /DATA/Projects_c++/FloatFraction/FractionUnits1.cpp",
-  "file": "/DATA/Projects_c++/FloatFraction/FractionUnits1.cpp"
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o -c /DATA/Projects_c++/FloatFraction/FloatFract1.cpp",
+  "file": "/DATA/Projects_c++/FloatFraction/FloatFract1.cpp"
 }
 ]

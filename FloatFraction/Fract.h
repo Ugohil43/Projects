@@ -1,7 +1,14 @@
 #include <iostream>
 using namespace std;
 
-class Fraction
+class Printable 
+{
+    virtual void print_me(ostream &os) = 0;
+
+    friend ostream &operator<<(ostream &os, Printable &pr);
+};
+
+class Fraction : public Printable
 {
     private: 
         int num, den;
@@ -11,6 +18,8 @@ class Fraction
         Fraction(int n, int d) {set(n, d);}
         Fraction(int n) {set(n, 1);}
         Fraction(const Fraction &src) {set(src.num, src.den); normalize();}
+
+        void print_me(ostream &os) {os << *this;}
 
         void set(int n, int d)
         {
@@ -31,8 +40,9 @@ class Fraction
         bool operator<(const Fraction &other);
         bool operator==(const Fraction &other) {return (num == other.num && den == other.den);}
         friend ostream &operator<<(ostream &os, Fraction &fr) {return (os << fr.num << "/" << fr.den);}
+    protected:
+        virtual void normalize();
     private:
-        void normalize();
         int gcf(int a, int b);
         int lcm(int a, int b);
 };

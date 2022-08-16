@@ -1,5 +1,11 @@
 #include "Fract.h"
 
+ostream &operator<<(ostream &os, Printable &pr)
+{
+    pr.print_me(os);
+    return os;
+}
+
 void Fraction::normalize()
 {
     if (den == 0 || num == 0)
