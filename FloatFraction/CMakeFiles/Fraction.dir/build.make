@@ -57,38 +57,38 @@ include CMakeFiles/Fraction.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Fraction.dir/flags.make
 
-CMakeFiles/Fraction.dir/Fraction.o: CMakeFiles/Fraction.dir/flags.make
-CMakeFiles/Fraction.dir/Fraction.o: Fraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DATA/Projects_c++/FloatFraction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Fraction.dir/Fraction.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Fraction.dir/Fraction.o -c /DATA/Projects_c++/FloatFraction/Fraction.cpp
+CMakeFiles/Fraction.dir/Fraction.cpp.o: CMakeFiles/Fraction.dir/flags.make
+CMakeFiles/Fraction.dir/Fraction.cpp.o: Fraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DATA/Projects_c++/FloatFraction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Fraction.dir/Fraction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Fraction.dir/Fraction.cpp.o -c /DATA/Projects_c++/FloatFraction/Fraction.cpp
 
-CMakeFiles/Fraction.dir/Fraction.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Fraction.dir/Fraction.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /DATA/Projects_c++/FloatFraction/Fraction.cpp > CMakeFiles/Fraction.dir/Fraction.i
+CMakeFiles/Fraction.dir/Fraction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Fraction.dir/Fraction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /DATA/Projects_c++/FloatFraction/Fraction.cpp > CMakeFiles/Fraction.dir/Fraction.cpp.i
 
-CMakeFiles/Fraction.dir/Fraction.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Fraction.dir/Fraction.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /DATA/Projects_c++/FloatFraction/Fraction.cpp -o CMakeFiles/Fraction.dir/Fraction.s
+CMakeFiles/Fraction.dir/Fraction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Fraction.dir/Fraction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /DATA/Projects_c++/FloatFraction/Fraction.cpp -o CMakeFiles/Fraction.dir/Fraction.cpp.s
 
-CMakeFiles/Fraction.dir/Fraction.o.requires:
+CMakeFiles/Fraction.dir/Fraction.cpp.o.requires:
 
-.PHONY : CMakeFiles/Fraction.dir/Fraction.o.requires
+.PHONY : CMakeFiles/Fraction.dir/Fraction.cpp.o.requires
 
-CMakeFiles/Fraction.dir/Fraction.o.provides: CMakeFiles/Fraction.dir/Fraction.o.requires
-	$(MAKE) -f CMakeFiles/Fraction.dir/build.make CMakeFiles/Fraction.dir/Fraction.o.provides.build
-.PHONY : CMakeFiles/Fraction.dir/Fraction.o.provides
+CMakeFiles/Fraction.dir/Fraction.cpp.o.provides: CMakeFiles/Fraction.dir/Fraction.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Fraction.dir/build.make CMakeFiles/Fraction.dir/Fraction.cpp.o.provides.build
+.PHONY : CMakeFiles/Fraction.dir/Fraction.cpp.o.provides
 
-CMakeFiles/Fraction.dir/Fraction.o.provides.build: CMakeFiles/Fraction.dir/Fraction.o
+CMakeFiles/Fraction.dir/Fraction.cpp.o.provides.build: CMakeFiles/Fraction.dir/Fraction.cpp.o
 
 
 # Object files for target Fraction
 Fraction_OBJECTS = \
-"CMakeFiles/Fraction.dir/Fraction.o"
+"CMakeFiles/Fraction.dir/Fraction.cpp.o"
 
 # External object files for target Fraction
 Fraction_EXTERNAL_OBJECTS =
 
-libFraction.a: CMakeFiles/Fraction.dir/Fraction.o
+libFraction.a: CMakeFiles/Fraction.dir/Fraction.cpp.o
 libFraction.a: CMakeFiles/Fraction.dir/build.make
 libFraction.a: CMakeFiles/Fraction.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/DATA/Projects_c++/FloatFraction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libFraction.a"
@@ -100,7 +100,7 @@ CMakeFiles/Fraction.dir/build: libFraction.a
 
 .PHONY : CMakeFiles/Fraction.dir/build
 
-CMakeFiles/Fraction.dir/requires: CMakeFiles/Fraction.dir/Fraction.o.requires
+CMakeFiles/Fraction.dir/requires: CMakeFiles/Fraction.dir/Fraction.cpp.o.requires
 
 .PHONY : CMakeFiles/Fraction.dir/requires
 

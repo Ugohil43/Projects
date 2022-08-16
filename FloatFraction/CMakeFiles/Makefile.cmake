@@ -43,5 +43,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Fraction.dir/DependInfo.cmake"
-  "CMakeFiles/FloatFract1.dir/DependInfo.cmake"
+  "CMakeFiles/FractionUnits1.dir/DependInfo.cmake"
   )

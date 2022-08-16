@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/DATA/Projects_c++/FloatFraction/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/Fraction.dir/Fraction.cpp.o -c /DATA/Projects_c++/FloatFraction/Fraction.cpp",
+  "file": "/DATA/Projects_c++/FloatFraction/Fraction.cpp"
+},
+{
+  "directory": "/DATA/Projects_c++/FloatFraction/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/FractionUnits1.dir/FractionUnits1.cpp.o -c /DATA/Projects_c++/FloatFraction/FractionUnits1.cpp",
+  "file": "/DATA/Projects_c++/FloatFraction/FractionUnits1.cpp"
+}
+]

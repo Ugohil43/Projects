@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/FractionUnits1.dir/FractionUnits1.cpp.o  -o FractionUnits1 libFraction.a 

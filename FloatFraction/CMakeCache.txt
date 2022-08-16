@@ -134,7 +134,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=FloatFraction
+CMAKE_PROJECT_NAME:STATIC=FractionUnits
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -193,6 +193,12 @@ FloatFraction_BINARY_DIR:STATIC=/DATA/Projects_c++/FloatFraction
 
 //Value Computed by CMake
 FloatFraction_SOURCE_DIR:STATIC=/DATA/Projects_c++/FloatFraction
+
+//Value Computed by CMake
+FractionUnits_BINARY_DIR:STATIC=/DATA/Projects_c++/FloatFraction
+
+//Value Computed by CMake
+FractionUnits_SOURCE_DIR:STATIC=/DATA/Projects_c++/FloatFraction
 
 //Dependencies for target
 Fraction_LIB_DEPENDS:STATIC=

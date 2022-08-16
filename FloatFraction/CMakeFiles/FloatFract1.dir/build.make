@@ -57,38 +57,38 @@ include CMakeFiles/FloatFract1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/FloatFract1.dir/flags.make
 
-CMakeFiles/FloatFract1.dir/FloatFract1.o: CMakeFiles/FloatFract1.dir/flags.make
-CMakeFiles/FloatFract1.dir/FloatFract1.o: FloatFract1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DATA/Projects_c++/FloatFraction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FloatFract1.dir/FloatFract1.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FloatFract1.dir/FloatFract1.o -c /DATA/Projects_c++/FloatFraction/FloatFract1.cpp
+CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o: CMakeFiles/FloatFract1.dir/flags.make
+CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o: FloatFract1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DATA/Projects_c++/FloatFraction/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o -c /DATA/Projects_c++/FloatFraction/FloatFract1.cpp
 
-CMakeFiles/FloatFract1.dir/FloatFract1.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FloatFract1.dir/FloatFract1.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /DATA/Projects_c++/FloatFraction/FloatFract1.cpp > CMakeFiles/FloatFract1.dir/FloatFract1.i
+CMakeFiles/FloatFract1.dir/FloatFract1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FloatFract1.dir/FloatFract1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /DATA/Projects_c++/FloatFraction/FloatFract1.cpp > CMakeFiles/FloatFract1.dir/FloatFract1.cpp.i
 
-CMakeFiles/FloatFract1.dir/FloatFract1.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FloatFract1.dir/FloatFract1.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /DATA/Projects_c++/FloatFraction/FloatFract1.cpp -o CMakeFiles/FloatFract1.dir/FloatFract1.s
+CMakeFiles/FloatFract1.dir/FloatFract1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FloatFract1.dir/FloatFract1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /DATA/Projects_c++/FloatFraction/FloatFract1.cpp -o CMakeFiles/FloatFract1.dir/FloatFract1.cpp.s
 
-CMakeFiles/FloatFract1.dir/FloatFract1.o.requires:
+CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o.requires:
 
-.PHONY : CMakeFiles/FloatFract1.dir/FloatFract1.o.requires
+.PHONY : CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o.requires
 
-CMakeFiles/FloatFract1.dir/FloatFract1.o.provides: CMakeFiles/FloatFract1.dir/FloatFract1.o.requires
-	$(MAKE) -f CMakeFiles/FloatFract1.dir/build.make CMakeFiles/FloatFract1.dir/FloatFract1.o.provides.build
-.PHONY : CMakeFiles/FloatFract1.dir/FloatFract1.o.provides
+CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o.provides: CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o.requires
+	$(MAKE) -f CMakeFiles/FloatFract1.dir/build.make CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o.provides.build
+.PHONY : CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o.provides
 
-CMakeFiles/FloatFract1.dir/FloatFract1.o.provides.build: CMakeFiles/FloatFract1.dir/FloatFract1.o
+CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o.provides.build: CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o
 
 
 # Object files for target FloatFract1
 FloatFract1_OBJECTS = \
-"CMakeFiles/FloatFract1.dir/FloatFract1.o"
+"CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o"
 
 # External object files for target FloatFract1
 FloatFract1_EXTERNAL_OBJECTS =
 
-FloatFract1: CMakeFiles/FloatFract1.dir/FloatFract1.o
+FloatFract1: CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o
 FloatFract1: CMakeFiles/FloatFract1.dir/build.make
 FloatFract1: libFraction.a
 FloatFract1: CMakeFiles/FloatFract1.dir/link.txt
@@ -100,7 +100,7 @@ CMakeFiles/FloatFract1.dir/build: FloatFract1
 
 .PHONY : CMakeFiles/FloatFract1.dir/build
 
-CMakeFiles/FloatFract1.dir/requires: CMakeFiles/FloatFract1.dir/FloatFract1.o.requires
+CMakeFiles/FloatFract1.dir/requires: CMakeFiles/FloatFract1.dir/FloatFract1.cpp.o.requires
 
 .PHONY : CMakeFiles/FloatFract1.dir/requires
 

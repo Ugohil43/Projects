@@ -10,15 +10,15 @@ class Fraction
         //Fraction() {num = 0; den = 0; normalize();}
         Fraction(int n, int d) {set(n, d);}
         Fraction(int n) {set(n, 1);}
-        Fraction(Fraction const &src) {set(src.num, src.den); normalize();}
+        Fraction(const Fraction &src) {set(src.num, src.den); normalize();}
 
         void set(int n, int d)
         {
             num = n; den = d; normalize();
         }
 
-        int get_num() {return num;}
-        int get_den() {return den;}
+        int get_num() const {return num;}
+        int get_den() const {return den;}
         Fraction add(const Fraction &other);
         Fraction mult(const Fraction &other);
         Fraction sub(const Fraction &other);

@@ -1,0 +1,4 @@
+/DATA/Projects_c++/FloatFraction/build/CMakeFiles/edit_cache.dir
+/DATA/Projects_c++/FloatFraction/build/CMakeFiles/rebuild_cache.dir
+/DATA/Projects_c++/FloatFraction/build/CMakeFiles/Fraction.dir
+/DATA/Projects_c++/FloatFraction/build/CMakeFiles/FractionUnits1.dir
